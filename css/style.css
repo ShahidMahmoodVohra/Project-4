@@ -2,9 +2,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-gap: 1rem;
-        /* width: fit-content; */
-        margin: 0px 0px 100px 0px;
+        grid-gap: 1.5rem;
+        width: 90%;
+        margin: 0px auto 100px auto;
     }
 
     .section-1:first-child {
@@ -18,9 +18,9 @@
 
     .section-1 {
         background-color: #2b2b2b;
-        width: 1010px;
+       
         height: 255px;
-        margin: 0px;
+ 
         padding: 11px 55px 5px 32px;
     }
 
@@ -39,7 +39,7 @@
     .section-2,
     .section-3 {
         position: relative;
-        width: 462px;
+        width: 95%;
         height: 225px;
         border: 1px solid lightgray;
         padding: 2px 10px;
@@ -88,12 +88,12 @@
         box-shadow: inset 0px 0px 5px lightgray;
         background-color: rgba(247, 245, 245, .3);
         padding: 10px 15px;
-        margin: 4px 0px 55px 128px;
+        margin: 0px 0px 55px 170px;
     }
 
     .Archives {
         padding: 10px 15px;
-        margin: 4px 0px 55px 128px;
+        margin: 0px 0px 55px 170px;
 
     }
 
@@ -104,12 +104,16 @@
         text-align: start;
 
     }
+    .section-4{
+        width: 142%;
+    }
 
     #sample {
         height: 180px;
         border-top: .1px solid lightgray;
         border-bottom: .1px solid lightgray;
         padding-top: 20px;
+        box-shadow: inset 0px 0px 5px lightgray;
 
     }
 
@@ -123,6 +127,7 @@
         height: 40px;
 
     }
+ 
 
 
     .section-5 ul {
@@ -137,11 +142,7 @@
         font-weight: lighter;
     }
 
-    .section-5 {
-        width: 485px;
 
-
-    }
 
     .ul-2 {
         margin: 5px 5px 5px 5px;
